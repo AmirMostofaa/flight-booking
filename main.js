@@ -91,3 +91,11 @@ function totalPrice(){
     const grandTotal = total + tax;
     document.getElementById('gtotal').innerText = '$' + grandTotal;
 }
+
+
+
+// Book Now button
+document.getElementById('book-now').addEventListener('click', function(){
+    document.getElementById('main').style.display = 'none';
+    document.getElementById('thankyou').style.display = 'block'
+})

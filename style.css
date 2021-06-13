@@ -120,3 +120,19 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+
+#book-now {
+    cursor: pointer;
+}
+
+.thankyou {
+    display: none;
+    width: 40%;
+    margin: 40px auto;
+}
+.thank-text {
+    padding: 40px 60px;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 5px 5px 10px blueviolet;
+}
